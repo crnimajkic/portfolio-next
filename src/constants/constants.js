@@ -9,7 +9,7 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'Tasktracker',
+    title: 'Task tracker',
     description: "It is a simple but beautifll application for task tracking made in React. Adding, deleting and editing tasks have never been easier.",
     image: '/images/2.png',
     tags: ['JSON server', 'JavaScript', 'React'],

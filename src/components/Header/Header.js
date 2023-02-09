@@ -10,13 +10,13 @@ const Header = () =>  (
   <Container>
     <Div1>
       <Link href='/'>
-        <a style={{ display:"flex", alignItems: "center",justifyContent: "center", color: "white", marginBottom: '20'}}>
+        <a style={{ display:"flex", alignItems: "center",justifyContent: "center", color: "white", marginBottom: '20px'}}>
           <DiCssdeck size='3rem'></DiCssdeck>
           <Span> Milos Majkic</Span>
         </a>
       </Link>
     </Div1>
-    <Div2 style={{ display:"flex", alignItems: "center", color: "white", marginBottom: '20',alignContent:"space-between"}}>
+    <Div2 style={{ display:"flex", alignItems: "center", color: "white", marginBottom: '20px',alignContent:"space-between"}}>
       <li >
         <Link href='#projects'>
           <NavLink>Projects</NavLink>
@@ -29,7 +29,7 @@ const Header = () =>  (
       </li>
       <li>
         <Link href='#About'>
-          <NavLink>About Me</NavLink>
+          <NavLink>About</NavLink>
         </Link>
       </li>
     </Div2>

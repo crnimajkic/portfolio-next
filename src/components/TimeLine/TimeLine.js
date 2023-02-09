@@ -44,10 +44,11 @@ const Timeline = () => {
 
   return (
     <Section id="About">
-      <SectionTitle>About Me</SectionTitle>
+      <SectionTitle style={{paddingBottom:'4rem'}}>About Me</SectionTitle>
       <SectionText>
         "I'm a full-stack web developer with a love for creating dynamic and user-friendly digital experiences. With a background in React.js, MongoDB and Webflow I have the technical expertise and problem-solving skills to bring your project to life.
         ‍<br />
+        <br />
         In my free time, I enjoy playing table tennis and staying up to date on the latest trends in web development. I'm excited to work with you and bring your vision to the web!"
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>

@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from "next/image"
+import Uxui from '../../../public/images/web-development.png'
 import { DiReact, DiNodejsSmall } from 'react-icons/di';
 import {FaPaintBrush} from 'react-icons/fa'
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
@@ -27,7 +29,7 @@ const Technologies = () => (
       </ListItem>
 
       <ListItem>
-        <FaPaintBrush size="4rem"/>
+        <img src='/images/wd.png' width={40} height={40} />
         <ListContainer>
           <ListTitle>
             UX/UX

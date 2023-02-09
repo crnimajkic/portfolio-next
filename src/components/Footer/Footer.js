@@ -22,7 +22,7 @@ const Footer = () => {
 
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan> Inovating one project at the time</Slogan>
+          <Slogan style={{fontSize:"3rem", lineHeight:"3.3rem"}}> -Inovating one project at the time-</Slogan>
         </CompanyContainer>
 
         <SocialIconsContainer>
